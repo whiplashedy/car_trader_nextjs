@@ -1,0 +1,18 @@
+.navbar{
+    grid-area: h2;
+    display: flex;
+    justify-content: right;
+}
+.login{
+    font-size: 80%;
+    color: dodgerblue;
+    padding: 5px;
+}
+.user{
+    font-size: 80%;
+    color: dodgerblue;
+    padding: 5px;
+}
+.logout{
+    padding: 5px;
+}

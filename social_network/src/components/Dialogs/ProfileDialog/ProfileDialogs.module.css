@@ -1,0 +1,14 @@
+.dialogs{
+    display: grid;
+    grid-area: content;
+    grid-template-columns: 5fr 5fr;
+    grid-template-areas: "dialog message"
+}
+
+.dialog{
+    grid-area: dialog;
+}
+
+.message{
+    grid-area: message;
+}

@@ -1,0 +1,7 @@
+.userProfile{
+    grid-area: content;
+}
+.userProfile div{
+    color: azure;
+}
+

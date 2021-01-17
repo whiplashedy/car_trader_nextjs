@@ -1,0 +1,7 @@
+.login{
+    grid-area:content;
+    font-size: 20px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}

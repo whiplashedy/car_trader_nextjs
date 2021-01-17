@@ -1,0 +1,14 @@
+.photo{
+    height: 50px;
+    width: 50px;
+}
+.users{
+    grid-area: content;
+}
+
+.name{
+    color: azure;
+}
+.button{
+    padding-bottom: 10px;
+}

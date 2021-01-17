@@ -1,0 +1,10 @@
+.photo{
+    height: 50px;
+    width: 50px;
+}
+.users{
+    grid-area: content;
+}
+.selectedPage{
+    font-weight: bold;
+}

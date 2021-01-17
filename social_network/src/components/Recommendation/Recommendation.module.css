@@ -1,0 +1,5 @@
+.recommendation{
+    grid-area: recommendation;
+    border-color: darkgray;
+    text-align: left;
+}

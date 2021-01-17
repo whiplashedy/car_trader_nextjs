@@ -1,0 +1,10 @@
+.navbar{
+    grid-area: h2;
+    float:right;
+}
+.login{
+    float:right;
+}
+.user{
+    float:right;
+}
