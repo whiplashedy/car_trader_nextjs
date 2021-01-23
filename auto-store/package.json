@@ -1,0 +1,36 @@
+{
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "type-check": "tsc",
+    "db": "prisma studio --experimental",
+    "db-save": "prisma migrate dev --preview-feature",
+    "db-update": "prisma generate"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@prisma/cli": "^2.14.0",
+    "@prisma/client": "^2.14.0",
+    "axios": "^0.21.1",
+    "formik": "^2.2.6",
+    "next": "latest",
+    "nprogress": "^0.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sqlite": "^4.0.19",
+    "swr": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}
