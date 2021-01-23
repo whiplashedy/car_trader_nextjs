@@ -1,9 +1,0 @@
-.App {
-    display: grid;
-    grid-template-columns: 2fr 3fr 3fr;
-    grid-template-rows: 20px 1fr;
-    grid-template-areas: "h1 h2 ."
-                       "sidebar content recommendation";
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 20px;
-}
